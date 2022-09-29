@@ -107,7 +107,6 @@ background-position: center center;
  color: rgb(2, 2, 34);
   text-decoration: none;
   font-family: Arial;
-  /* color: white; */
   transition: ease-in-out 0.4s;
 
 }
@@ -169,6 +168,22 @@ background-position: center center;
  font-weight: 800;
  margin-bottom: 60px;
  text-align: center;
+}
+
+.btn {
+   color: white;
+   background: #3a6cf4;
+   font-size: 1em;
+   font-weight: 600;
+   padding: 10px 20px;
+   display: inline-block;
+   text-transform: uppercase;
+   text-decoration: none;
+   letter-spacing: 1px;
+   border-radius: 7px;
+   margin-top: 30px;
+   transition: 0.5s ease;
+   margin-bottom: 10px;
 }
 
 .section-1{
