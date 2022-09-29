@@ -14,17 +14,15 @@ serif;
 }
 
 body {
- /* min-height: 100vh; */
+ min-height: 100vh;
   display: grid;
  margin: 0 auto;
- border: 1px solid red;
 }
 
 .navbar{
  display: flex;
  justify-content: space-between;
  align-items: center;
- border: 1px solid orange;
  background-color: #0c2466;
  padding: 0px 50px;
 }
@@ -58,7 +56,6 @@ ul a:hover {
 
 /* hero section */
 .section {
- /* height: 500px; */
  width: 100%;
  min-height: 80vh;
 background-image: url('./images/banner.jpg');
@@ -119,7 +116,6 @@ background-position: center center;
  width: 100%;
  display: flex;
  justify-content: space-between;
- /* margin-top: 20px; */
 }
 
 .about .content .col-left {
@@ -144,7 +140,6 @@ background-position: center center;
  left: 0;
  width: 85%;
  height: 60%;
- /* object-fit: cover; */
  border-radius: 10px;
 }
 
@@ -247,11 +242,12 @@ article:hover {
 footer{
  background-color: rgb(2, 22, 22);
  text-align: center;
- padding: 10px;
+ padding: 18px;
  color: white;
 }
 
 @media (max-width: 769px) {
+  /* navigation */
      .navbar{
       gap: 3em;
      }
@@ -308,17 +304,21 @@ footer{
     }
 
     .about .content .col-right {
-     margin-left: 2em;
+     margin-left: 1.5em;
      width: 100%;
     }
 
     .about .content .col-right .para-text{
-     width: 80%;
+     width: 85%;
     }
 
     .section-title{
-     margin-right: 1.5em;
+     margin-right: 1em;
      padding: 1em;
+    }
+
+    .btn{
+      margin-left: 3.3em;
     }
 
      /* Product section */
@@ -332,6 +332,6 @@ footer{
 
 
    footer{
-    margin-top: 51rem;
+    margin-top: 53rem;
    }
 }
