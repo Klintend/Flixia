@@ -15,7 +15,6 @@ serif;
 
 body {
  /* min-height: 100vh; */
-  /* min-height: 150vh; */
   display: grid;
  margin: 0 auto;
  border: 1px solid red;
@@ -57,6 +56,7 @@ ul a:hover {
  border-bottom: 2px solid rgb(1, 1, 42);
 }
 
+/* hero section */
 .section {
  /* height: 500px; */
  width: 100%;
@@ -228,7 +228,6 @@ figure button {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
-  /* border: none; */
   border-radius: 7px;
   margin-top: 10px;
   transition: 0.5s ease;
@@ -252,46 +251,87 @@ footer{
  color: white;
 }
 
-@media (max-width: 1040px) {
-     /* header {
-     padding: 0px 20px;
-    }  */
-    
-    header .container {
-     flex-direction: column;
-     align-items: flex-start;
-    }
-    
-    header .container nav {
-     height: 0;
-     width: 100%;
-     overflow: hidden;
-     transition: 0.5s height ease-in-out;
-    }
-    
-    header .container nav ul li {
-     display: block;
-     text-align: center;
-     padding: 1.5rem 0;
-    }
-    
-    header .container nav ul li a {
-     font-size: 1.4rem;
-    }
-    
-    header .container .nav-toggle {
-     display: block;
-    }
-    
-    header .container .nav-toggle img {
-     background: #fff;
-     /* color: #0000; */
+@media (max-width: 769px) {
+     .navbar{
+      gap: 3em;
+     }
+
+     .img-flex{
+      margin-left: 5.5em;
+     }
+     
+     .div1 {
+      display: block;
+     }
+     
+     .navbar ul a li {
+      font-size: 15px;
+     }
+
+     .div2 .navbar-list2 a li {
+      margin-top: 2em;
+     }
+     
+     .navbar ul {
+      justify-content: center;
+      display: flex;
+      padding: 5px 1px;
+     }
+     
+     header {
+      display: block;
+     }
+     
+
+    /* hero section */
+    .section{
+     min-height: 70vh;
     }
 
+     /* About */
+    .about .content {
+     flex-direction: column;
+    }
+
+     .about .content .col-left .img-card {
+      min-height: 300px;
+     }
+
+    .about .content .col-left .img-card img {
+     width: 150%;
+     margin-left: 2em;
+    }
+
+    .about {
+     padding: 0;
+     margin-left: 40px;
+    }
+
+    .about .content .col-right {
+     margin-left: 2em;
+     width: 100%;
+    }
+
+    .about .content .col-right .para-text{
+     width: 80%;
+    }
+
+    .section-title{
+     margin-right: 1.5em;
+     padding: 1em;
+    }
+
+     /* Product section */
     .div3{
      flex-direction: column;
      align-items: center;
      justify-content: space-evenly;
      gap: 2em;
+     background-color: beige;
     }
+
+
+   footer{
+    margin-top: 51rem;
+   }
 }
